@@ -1,9 +1,10 @@
+require('dotenv').config();
 const express = require('express')
 const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
-
-mongoose.connect('mongodb://0.0.0.0:27017/', {
+const mongoUri = process.env.MONGODB_URI;
+mongoose.connect(mongoUri, {
   // useNewUrlParser: true, useUnifiedTopology: true
 })
 
