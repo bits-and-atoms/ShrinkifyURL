@@ -1,0 +1,4 @@
+npm init
+npm i expresss ejs mongoose
+npm i shorted
+npm run starter
