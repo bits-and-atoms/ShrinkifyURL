@@ -1,4 +1,5 @@
 npm init
 npm i expresss ejs mongoose
 npm i shorted
+npm install dotenv --save
 npm run starter
